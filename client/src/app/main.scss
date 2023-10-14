@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+ul,li {
+    list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { // Стили, чтобы убрать стрелки с input type=number
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 200px auto;
+}
